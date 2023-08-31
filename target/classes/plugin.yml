@@ -1,0 +1,15 @@
+name: testPrefixPlugin
+version: '1.0-SNAPSHOT'
+main: com.kimcodns.testprefixplugin.TestPrefixPlugin
+api-version: '1.19'
+commands:
+  칭호:
+    description: 칭호 목록을 봅니다
+  setManager:
+    description: 칭호 관리자로 위임합니다. 사용법 /setManager <username>
+  deManager:
+    description: 칭호 관리자를 박탈합니다. 사용법 /deManager <username>
+  칭호북:
+    description: 칭호를 부여합니다. 사용법 /칭호북 <칭호이름>
+  칭호관리:
+    description: 칭호를 관리합니다. 사용법 /칭호관리 <username>
